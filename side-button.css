@@ -1,4 +1,4 @@
-button.sidebutton {
+button.sidebuttonlarge {
     font-size: 17px;
     width: 200px; 
     height: 60px; 
@@ -7,10 +7,27 @@ button.sidebutton {
     border-radius: 60px;
 }
 
-button.sidebutton:hover{
+button.sidebuttonsmall {
+    font-size: 14px;
+    width: 150px; 
+    height: 40px; 
+    margin-left: 25%; 
+    margin-bottom: 30px; 
+    border-radius: 20px;
+}
+
+button.sidebuttonlarge:hover{
     box-shadow: 0 0 15px rgb(133, 133, 133);
 }
 
-button.sidebutton:active{
+button.sidebuttonlarge:active{
+    box-shadow: 0 0 0;
+}
+
+button.sidebuttonsmall:hover{
+    box-shadow: 0 0 10px rgb(133, 133, 133);
+}
+
+button.sidebuttonsmall:active{
     box-shadow: 0 0 0;
 }
