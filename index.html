@@ -8,10 +8,12 @@
         <title>Звіт основи веб-програмування</title>
         <link rel="stylesheet" href="side-button.css"/>
         <link rel="stylesheet" href="top-button.css"/>
+        <link rel="stylesheet" href="header.css"/>
+        <link rel="stylesheet" href="sidebar.css"/>
     </head>
 
     <body style="margin: 0;">
-        <header style="margin: 0;background-color: rgb(75,74,69); color: #fff; height: 25%;" align="center">
+        <header class="siteheader" align="center">
             <!--Шапка сайта-->
             <h2 style="margin: 0;"><br>ЗВІТИ З ЛАБОРАТОРНИХ РОБІТ<br>
                 З ДИСЦИПЛІНИ «ІНТЕРНЕТ-ТЕХНОЛОГІЇ ТА ПРОЕКТУВАННЯ WEB-ЗАСТОСУВАНЬ»
@@ -37,7 +39,7 @@
         </header>
 
         <!--Боковая панель с инфой по лабе-->
-        <aside style="float: left; position: static; width: 12vw; min-height: 100vh; font-size: 20px; background: #e0e0e0ec;">
+        <aside class="sidebar">
             <button class="sidebutton" style="margin-top: 40px;">Опис предметного середовища</button>
             <button class="sidebutton">Тема, мета, місце розташування</button>
             <button class="sidebutton">Структура документа</button>
@@ -45,6 +47,7 @@
             <button class="sidebutton">HTML-код форм</button>
             <button class="sidebutton">HTML-код зображення</button>
             <button class="sidebutton">Висновки</button>
+            <img style="float: left; margin-left: 35px; margin-top: 50%" src="patrick.png" width=70% height=100%>
         </aside>
 
         <main>
