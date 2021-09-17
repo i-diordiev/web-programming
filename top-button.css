@@ -1,1 +1,14 @@
-button.topbutton {width: 120px; height: 40px; border-radius: 15px;}
+button.topbutton {
+    font-size: 20px;
+    width: 170px;
+    height: 60px; 
+    border-radius: 60px;
+}
+
+button.topbutton:hover{
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+button.topbutton:active{
+    box-shadow: 0 0 0;
+}

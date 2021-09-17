@@ -1,1 +1,16 @@
-button.sidebutton {width: 130px; height: 40px; margin-left: 25px; margin-bottom: 15px; border-radius: 20px;}
+button.sidebutton {
+    font-size: 17px;
+    width: 200px; 
+    height: 60px; 
+    margin-left: 7%; 
+    margin-bottom: 30px; 
+    border-radius: 60px;
+}
+
+button.sidebutton:hover{
+    box-shadow: 0 0 15px rgb(133, 133, 133);
+}
+
+button.sidebutton:active{
+    box-shadow: 0 0 0;
+}
