@@ -10,6 +10,42 @@
         <link rel="stylesheet" href="top-button.css"/>
         <link rel="stylesheet" href="header.css"/>
         <link rel="stylesheet" href="sidebar.css"/>
+        <script>
+            function showDescription() {
+                var element = document.getElementById("stringfortext");
+                element.innerText = "DESCRIPTION";
+            }
+
+            function showTheme() {
+                var element = document.getElementById("stringfortext");
+                element.innerText = "THEME";
+            }
+
+            function showStructure() {
+                var element = document.getElementById("stringfortext");
+                element.innerText = "STRUCTURE";
+            }
+
+            function showHtmlTableCode() {
+                var element = document.getElementById("stringfortext");
+                element.innerText = "TABLE CODE";
+            }
+
+            function showHtmlFormCode() {
+                var element = document.getElementById("stringfortext");
+                element.innerText = "FORM CODE";
+            }
+
+            function showHtmlImageCode() {
+                var element = document.getElementById("stringfortext");
+                element.innerText = "IMAGE CODE";
+            }
+
+            function showConclusion() {
+                var element = document.getElementById("stringfortext");
+                element.innerText = "CONCLUSION";
+            }
+        </script>
     </head>
 
     <!--
@@ -30,7 +66,7 @@
             <!--Навигация по лабам-->
             <table align="center", cellspacing="20px">
                 <tr>
-                    <td><button class="topbutton">Лабораторна робота №1</button></td>
+                    <td><button class="topbutton" onclick="showText()">Лабораторна робота №1</button></td>
                     <td><button class="topbutton">Лабораторна робота №2</button></td>
                     <td><button class="topbutton">Лабораторна робота №3</button></td>
                     <td><button class="topbutton">Лабораторна робота №4</button></td>
@@ -45,33 +81,22 @@
         
         <!--Боковая панель с инфой по лабе-->
         <aside class="sidebar">
-<<<<<<< HEAD
-            <button class="sidebuttonlarge" style="margin-top: 40px;">Опис предметного середовища</button>
-            <button class="sidebuttonlarge">Тема, мета, місце розташування</button>
-            <button class="sidebuttonlarge">Структура документа</button>
-            <button class="sidebuttonsmall">HTML-код таблиць</button>
-            <button class="sidebuttonsmall">HTML-код форм</button>
-            <button class="sidebuttonsmall">HTML-код зображення</button>
-            <button class="sidebuttonlarge">Висновки</button>
+            <button class="sidebuttonlarge" style="margin-top: 40px;" onclick="showDescription()">Опис предметного середовища</button>
+            <button class="sidebuttonlarge" onclick="showTheme()">Тема, мета, місце розташування</button>
+            <button class="sidebuttonlarge" onclick="showStructure()">Структура документа</button>
+            <button class="sidebuttonsmall" onclick="showHtmlTableCode()">HTML-код таблиць</button>
+            <button class="sidebuttonsmall" onclick="showHtmlFormCode()">HTML-код форм</button>
+            <button class="sidebuttonsmall" onclick="showHtmlImageCode()">HTML-код зображення</button>
+            <button class="sidebuttonlarge" onclick="showConclusion()">Висновки</button>
             <img style="float: left; margin-left: 35px; margin-top: 50%" 
             src="patrick.png" width=70% height=100% draggable="false">
-=======
-            <button class="sidebutton" style="margin-top: 40px;">Опис предметного середовища</button>
-            <button class="sidebutton">Тема, мета, місце розташування</button>
-            <button class="sidebutton">Структура документа</button>
-            <button class="sidebutton">HTML-код таблиць</button>
-            <button class="sidebutton">HTML-код форм</button>
-            <button class="sidebutton">HTML-код зображення</button>
-            <button class="sidebutton">Висновки</button>
-            <img style="float: left; margin-left: 35px; margin-top: 50%" 
-                src="patrick.png" width=70% height=100% draggable="false">
->>>>>>> 2815dd583ef1ba2fe2c8ce26177abd4a289c6724
         </aside>
 
         <main>
             <div id="contentholder">
                 <h1 align="center"><br>Оберіть лабораторну роботу</h1>
-            </div>          
+                <a id="stringfortext">test</a>
+            </div>     
         </main>
     </body>
 </html>
