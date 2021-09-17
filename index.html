@@ -6,6 +6,8 @@
     <head>
         <meta charset="utf-8" lang="ua"/>
         <title>Звіт основи веб-програмування</title>
+        <link rel="stylesheet" href="side-button.css"/>
+        <link rel="stylesheet" href="top-button.css"/>
     </head>
 
     <body style="margin: 0;">
@@ -19,24 +21,31 @@
         
         
             <!--Навигация по лабам-->
-            <table align="center", cellspacing="30px">
+            <table align="center", cellspacing="20px">
                 <tr>
-                    <td><a>Lab 1</a></td>
-                    <td><a>Lab 2</a></td>
-                    <td><a>Lab 3</a></td>
-                    <td><a>Lab 4</a></td>
-                    <td><a>Lab 5</a></td>
-                    <td><a>Lab 6</a></td>
-                    <td><a>Lab 7</a></td>
-                    <td><a>Lab 8</a></td>
-                    <td><a>Lab 9</a></td>
+                    <td><button class="topbutton">Лабораторна робота №1</button></td>
+                    <td><button class="topbutton">Лабораторна робота №2</button></td>
+                    <td><button class="topbutton">Лабораторна робота №3</button></td>
+                    <td><button class="topbutton">Лабораторна робота №4</button></td>
+                    <td><button class="topbutton">Лабораторна робота №5</button></td>
+                    <td><button class="topbutton">Лабораторна робота №6</button></td>
+                    <td><button class="topbutton">Лабораторна робота №7</button></td>
+                    <td><button class="topbutton">Лабораторна робота №8</button></td>
+                    <td><button class="topbutton">Лабораторна робота №9</button></td>
                 </tr>
             </table>
         </header>
 
-        <!--Боковя панель с инфой по лабе-->
+        <!--Боковая панель с инфой по лабе-->
         <aside style="float: left; position: static; width: 12vw; min-height: 100vh; font-size: 20px; background: #e0e0e0ec;">
             <p align="center">Боковая панелька</p>
+            <button class="sidebutton" style="margin-top: 40px;">Опис предметного середовища</button>
+            <button class="sidebutton">Тема, мета, місце розташування</button>
+            <button class="sidebutton">Структура документа</button>
+            <button class="sidebutton">HTML-код таблиць</button>
+            <button class="sidebutton">HTML-код форм</button>
+            <button class="sidebutton">HTML-код зображення</button>
+            <button class="sidebutton">Висновки</button>
         </aside>
 
         <main>
