@@ -6,7 +6,7 @@ button.topbutton {
 }
 
 button.topbutton:hover{
-    box-shadow: 0 0 10px rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
 }
 
 button.topbutton:active{
