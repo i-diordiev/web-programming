@@ -10,42 +10,7 @@
         <link rel="stylesheet" href="top-button.css"/>
         <link rel="stylesheet" href="header.css"/>
         <link rel="stylesheet" href="sidebar.css"/>
-        <script>
-            function showDescription() {
-                var element = document.getElementById("stringfortext");
-                element.innerText = "DESCRIPTION";
-            }
-
-            function showTheme() {
-                var element = document.getElementById("stringfortext");
-                element.innerText = "THEME";
-            }
-
-            function showStructure() {
-                var element = document.getElementById("stringfortext");
-                element.innerText = "STRUCTURE";
-            }
-
-            function showHtmlTableCode() {
-                var element = document.getElementById("stringfortext");
-                element.innerText = "TABLE CODE";
-            }
-
-            function showHtmlFormCode() {
-                var element = document.getElementById("stringfortext");
-                element.innerText = "FORM CODE";
-            }
-
-            function showHtmlImageCode() {
-                var element = document.getElementById("stringfortext");
-                element.innerText = "IMAGE CODE";
-            }
-
-            function showConclusion() {
-                var element = document.getElementById("stringfortext");
-                element.innerText = "CONCLUSION";
-            }
-        </script>
+        <script src="js/scripts.js"></script>
     </head>
 
     <body style="margin: 0;">
@@ -88,14 +53,13 @@
             </details>
 
             <button class="sidebuttonlarge" onclick="showConclusion()">Висновки</button>
-            <img style="margin-left: 35px; margin-top: 370px" 
-            src="patrick.png" width=70% height=70% draggable="false">
+            <img style="margin-left: 35px; margin-top: 45vh" 
+            src="patrick.png" width=70% height=100% draggable="false">
         </aside>
 
         <main>
-            <h1 align="center" style="margin-top: 200px;">Оберіть лабораторну роботу</h1>
-            
-            <div id="contentholder" hidden="true">
+            <div id="contentholder">
+                <h1 align="center" id="startString"><br>Оберіть лабораторну роботу</h1>
                 <a id="stringfortext" style="float: left;">test</a>
             </div>     
         </main>
