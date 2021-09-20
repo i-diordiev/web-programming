@@ -48,11 +48,6 @@
         </script>
     </head>
 
-    <!--
-        TODO:(phantom)
-            Запели маленькие кнопки под структорой документа
-    -->
-
     <body style="margin: 0;">
         <header class="siteheader" align="center">
             <!--Шапка сайта-->
@@ -83,19 +78,24 @@
         <aside class="sidebar">
             <button class="sidebuttonlarge" style="margin-top: 40px;" onclick="showDescription()">Опис предметного середовища</button>
             <button class="sidebuttonlarge" onclick="showTheme()">Тема, мета, місце розташування</button>
-            <button class="sidebuttonlarge" onclick="showStructure()">Структура документа</button>
-            <button class="sidebuttonsmall" onclick="showHtmlTableCode()">HTML-код таблиць</button>
-            <button class="sidebuttonsmall" onclick="showHtmlFormCode()">HTML-код форм</button>
-            <button class="sidebuttonsmall" onclick="showHtmlImageCode()">HTML-код зображення</button>
+
+
+            <details>
+                <summary>Структура документа</summary>
+                <button class="sidebuttonsmall" onclick="showHtmlTableCode()">HTML-код таблиць</button>
+                <button class="sidebuttonsmall" onclick="showHtmlFormCode()">HTML-код форм</button>
+                <button class="sidebuttonsmall" onclick="showHtmlImageCode()">HTML-код зображення</button>
+            </details>
+
             <button class="sidebuttonlarge" onclick="showConclusion()">Висновки</button>
-            <img style="float: left; margin-left: 35px; margin-top: 50%" 
+            <img style="margin-left: 35px; margin-top: 45vh" 
             src="patrick.png" width=70% height=100% draggable="false">
         </aside>
 
         <main>
             <div id="contentholder">
                 <h1 align="center"><br>Оберіть лабораторну роботу</h1>
-                <a id="stringfortext">test</a>
+                <a id="stringfortext" style="float: left;">test</a>
             </div>     
         </main>
     </body>
