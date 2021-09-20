@@ -1,44 +1,48 @@
-var labPath = "";
+var labPath = "lab1/";
 
-            function showDescription() {
-                var element = document.getElementById("stringfortext");
-                element.innerText = "DESCRIPTION";
-            }
+function loadText(path, fileName) {
+    var fullpath = path + fileName;
+    $("textfield").load(fullpath);
+}
 
-            function showTheme() {
-                var element = document.getElementById("stringfortext");
-                element.innerText = "THEME";
-            }
+function showDescription() {
+    loadText(labPath, "description.txt");
+}
 
-            function showStructure() {
-                var element = document.getElementById("stringfortext");
-                element.innerText = "STRUCTURE";
-            }
+function showTheme() {
+    var element = document.getElementById("stringfortext");
+    element.innerText = "THEME";
+}
 
-            function showHtmlTableCode() {
-                var element = document.getElementById("stringfortext");
-                element.innerText = "TABLE CODE";
-            }
+function showStructure() {
+    var element = document.getElementById("stringfortext");
+    element.innerText = "STRUCTURE";
+}
 
-            function showHtmlFormCode() {
-                var element = document.getElementById("stringfortext");
-                element.innerText = "FORM CODE";
-            }
+function showHtmlTableCode() {
+    var element = document.getElementById("stringfortext");
+    element.innerText = "TABLE CODE";
+}
 
-            function showHtmlImageCode() {
-                var element = document.getElementById("stringfortext");
-                element.innerText = "IMAGE CODE";
-            }
+function showHtmlFormCode() {
+    var element = document.getElementById("stringfortext");
+    element.innerText = "FORM CODE";
+}
 
-            function showConclusion() {
-                var element = document.getElementById("stringfortext");
-                element.innerText = "CONCLUSION";
-            }
+function showHtmlImageCode() {
+    var element = document.getElementById("stringfortext");
+    element.innerText = "IMAGE CODE";
+}
 
-            function chooseLab1() {
-                labPath = "lab1/";
-                document.getElementById("startString").hidden = "true";
-            }
+function showConclusion() {
+    var element = document.getElementById("stringfortext");
+    element.innerText = "CONCLUSION";
+}
+
+function chooseLab1() {
+    labPath = "lab1/";
+    document.getElementById("startString").hidden = "true";
+}
 
             function chooseLab2() {
                 labPath = "lab2/";
