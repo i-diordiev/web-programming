@@ -6,36 +6,42 @@ function loadText(path, fileName) {
 }
 
 function showDescription() {
-    loadText(labPath, "description.txt");
+    var element = document.getElementById("textfield");
+    element.innerText = "Loading...";
+    fetch("lab1/description.txt").then(response => response.text()).then(data => {
+        element.innerText = data;
+    })
+
+    //loadText(labPath, "description.txt");
 }
 
 function showTheme() {
-    var element = document.getElementById("stringfortext");
+    var element = document.getElementById("textfield");
     element.innerText = "THEME";
 }
 
 function showStructure() {
-    var element = document.getElementById("stringfortext");
+    var element = document.getElementById("textfield");
     element.innerText = "STRUCTURE";
 }
 
 function showHtmlTableCode() {
-    var element = document.getElementById("stringfortext");
+    var element = document.getElementById("textfield");
     element.innerText = "TABLE CODE";
 }
 
 function showHtmlFormCode() {
-    var element = document.getElementById("stringfortext");
+    var element = document.getElementById("textfield");
     element.innerText = "FORM CODE";
 }
 
 function showHtmlImageCode() {
-    var element = document.getElementById("stringfortext");
+    var element = document.getElementById("textfield");
     element.innerText = "IMAGE CODE";
 }
 
 function showConclusion() {
-    var element = document.getElementById("stringfortext");
+    var element = document.getElementById("textfield");
     element.innerText = "CONCLUSION";
 }
 
