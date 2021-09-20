@@ -4,3 +4,7 @@ header.siteheader{
     color: #fff; 
     height: 25%;
 }
+
+* {
+    box-sizing: border-box;
+}
