@@ -3,6 +3,7 @@ header.siteheader{
     background-color: rgb(75,74,69); 
     color: #fff; 
     height: 25%;
+    width: 100%;
 }
 
 * {

@@ -4,6 +4,7 @@ aside.sidebar{
     width: 235px;
     font-size: 20px;
     background: #e0e0e0ec;
+    height: 100%;
 }
 
 details > summary{
