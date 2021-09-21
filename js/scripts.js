@@ -14,7 +14,8 @@ function loadText(path, fileName) {
 
 function chooseLab1() {
     labPath = "lab1/";
-    document.getElementById("startString").hidden = "true";
+    document.getElementById("startString").hidden = true;
+    document.getElementById("sideBar").hidden = false;
     loadText(labPath, "description.txt");
 }
 
