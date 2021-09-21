@@ -37,19 +37,19 @@
             </table>
         </header>
         
-        <!--Боковая панель с инфой по лабе-->
+        <!--Боковая панель с инфой по лабе 1-->
         <aside class="sidebar" id="sideBar" hidden=true>
-            <button class="sidebuttonlarge" style="margin-top: 40px;" onclick="loadText(labPath, 'description.txt')">Опис предметного середовища</button>
-            <button class="sidebuttonlarge" onclick="loadText(labPath, 'theme.txt')">Тема, мета, місце розташування</button>
+            <button class="sidebuttonlarge" style="margin-top: 40px;" onclick="loadText(labPath, 'description.html')">Опис предметного середовища</button>
+            <button class="sidebuttonlarge" onclick="loadText(labPath, 'theme.html')">Тема, мета, місце розташування</button>
 
             <details>
                 <summary>Структура документа</summary>
-                <button class="sidebuttonsmall" onclick="loadText(labPath, 'htmltable.txt')">HTML-код таблиць</button>
-                <button class="sidebuttonsmall" onclick="loadText(labPath, 'htmlform.txt')">HTML-код форм</button>
-                <button class="sidebuttonsmall" onclick="loadText(labPath, 'htmlimage.txt')">HTML-код зображення</button>
+                <button class="sidebuttonsmall" onclick="loadText(labPath, 'htmltable.html')">HTML-код таблиць</button>
+                <button class="sidebuttonsmall" onclick="loadText(labPath, 'htmlform.html')">HTML-код форм</button>
+                <button class="sidebuttonsmall" onclick="loadText(labPath, 'htmlimage.html')">HTML-код зображення</button>
             </details>
 
-            <button class="sidebuttonlarge" onclick="loadText(labPath, 'conclusion.txt')">Висновки</button>
+            <button class="sidebuttonlarge" onclick="loadText(labPath, 'conclusion.html')">Висновки</button>
             <img style="margin-left: 35px; margin-top: 45vh" 
             src="patrick.png" width=70% height=100% draggable="false">
         </aside>
@@ -57,8 +57,8 @@
         <!-- TODO astro - сделать стиль для текста -->
 
         <main>
-            <h1 align="center" id="startString"><br>Оберіть лабораторну роботу</h1>
-            <div class="mainview" id="textfield">some sample text</div>     
+            <h1 align="center" id="startString" style="padding-top: 150px;"><br>Оберіть лабораторну роботу</h1>
+            <div class="mainview" id="textfield"></div>     
         </main>
     </body>
 </html>

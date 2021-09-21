@@ -16,53 +16,53 @@ function chooseLab1() {
     labPath = "lab1/";
     document.getElementById("startString").hidden = true;
     document.getElementById("sideBar").hidden = false;
-    loadText(labPath, "description.txt");
+    loadText(labPath, "description.html");
 }
 
 function chooseLab2() {
     labPath = "lab2/";
     document.getElementById("startString").hidden = "true";
-    loadText(labPath, "description.txt");
+    loadText(labPath, "description.html");
 }
 
 function chooseLab3() {
     labPath = "lab3/";
     document.getElementById("startString").hidden = "true";
-    loadText(labPath, "description.txt");
+    loadText(labPath, "description.html");
 }
 
 function chooseLab4() {
     labPath = "lab4/";
     document.getElementById("startString").hidden = "true";
-    loadText(labPath, "description.txt");
+    loadText(labPath, "description.html");
 }
 
 function chooseLab5() {
     labPath = "lab5/";
     document.getElementById("startString").hidden = "true";
-    loadText(labPath, "description.txt");
+    loadText(labPath, "description.html");
 }
 
 function chooseLab6() {
     labPath = "lab6/";
     document.getElementById("startString").hidden = "true";
-    loadText(labPath, "description.txt");
+    loadText(labPath, "description.html");
 }
 
 function chooseLab7() {
     labPath = "lab7/";
     document.getElementById("startString").hidden = "true";
-    loadText(labPath, "description.txt");
+    loadText(labPath, "description.html");
 }
 
 function chooseLab8() {
     labPath = "lab8/";
     document.getElementById("startString").hidden = "true";
-    loadText(labPath, "description.txt");
+    loadText(labPath, "description.html");
 }
 
 function chooseLab9() {
     labPath = "lab9/";
     document.getElementById("startString").hidden = "true";
-    loadText(labPath, "description.txt");
+    loadText(labPath, "description.html");
 }
