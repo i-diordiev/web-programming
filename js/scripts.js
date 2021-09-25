@@ -12,16 +12,28 @@ function loadText(path, fileName) {
     request.send(null);
 }
 
+function loadCurrentSideBar(elementId){
+    if(document.getElementById("sideBarLab1").hidden == false){
+        document.getElementById("sideBarLab1").hidden = true;
+    }
+    else if(document.getElementById("sideBarLab2").hidden == false){
+        document.getElementById("sideBarLab2").hidden = true;
+    }
+
+    document.getElementById(elementId).hidden = false;
+}
+
 function chooseLab1() {
     labPath = "lab1/";
     document.getElementById("startString").hidden = true;
-    document.getElementById("sideBar").hidden = false;
+    loadCurrentSideBar("sideBarLab1");
     loadText(labPath, "description.html");
 }
 
 function chooseLab2() {
     labPath = "lab2/";
     document.getElementById("startString").hidden = "true";
+    loadCurrentSideBar("sideBarLab2");
     loadText(labPath, "description.html");
 }
 

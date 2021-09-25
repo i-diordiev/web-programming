@@ -38,7 +38,7 @@
         </header>
         
         <!--Боковая панель с инфой по лабе 1-->
-        <aside class="sidebar" id="sideBar" hidden=true>
+        <aside class="sidebar" id="sideBarLab1" hidden=true>
             <button class="sidebuttonlarge" style="margin-top: 40px;" onclick="loadText(labPath, 'description.html')">Опис предметного середовища</button>
             <button class="sidebuttonlarge" onclick="loadText(labPath, 'theme.html')">Тема, мета, місце розташування</button>
 
@@ -50,6 +50,22 @@
             </details>
 
             <button class="sidebuttonlarge" onclick="loadText(labPath, 'conclusion.html')">Висновки</button>
+        </aside>
+
+        <!--Боковая панель с инфой по лабе 2-->
+        <aside class="sidebar" id="sideBarLab2" hidden=true>
+            <button class="sidebuttonlarge" style="margin-top: 40px;" onclick="loadText(labPath, '')">Постановка задачі</button>
+            <button class="sidebuttonlarge" onclick="loadText(labPath, '')">Списки</button>
+            <button class="sidebuttonlarge" onclick="loadText(labPath, '')">Ідентифікатори</button>
+            <button class="sidebuttonlarge" onclick="loadText(labPath, '')">Відступи</button>
+            <button class="sidebuttonlarge" onclick="loadText(labPath, '')">Плаваючі елементи</button>
+            
+            <details>
+                <summary>Селектори</summary>
+                <button class="sidebuttonsmall" onclick="loadText(labPath, '')">Селектори тегу і класу</button>
+                <button class="sidebuttonsmall" onclick="loadText(labPath, '')">Інші селектори</button>
+                <button class="sidebuttonsmall" onclick="loadText(labPath, '')">Групування селекторів</button>
+            </details>
         </aside>
 
         <main>
