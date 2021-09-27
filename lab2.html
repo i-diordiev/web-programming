@@ -38,9 +38,24 @@
                 </table>
             </nav>
         </header>
+        
+        <aside class="sidebar">
+            <button class="sidebuttonlarge" style="margin-top: 40px;" onclick="loadText('lab2/task.html')">Постановка задачі</button>
+            <button class="sidebuttonlarge" onclick="loadText('lab2/lists.html')">Списки</button>
+            <button class="sidebuttonlarge" onclick="loadText('lab2/identifiers.html')">Ідентифікатори</button>
+            <button class="sidebuttonlarge" onclick="loadText('lab2/margins.html')">Відступи</button>
+            <button class="sidebuttonlarge" onclick="loadText('lab2/floating.html')">Плаваючі елементи</button>
+            
+            <details>
+                <summary>Селектори</summary>
+                <button class="sidebuttonsmall" onclick="loadText('lab2/tagclassselectors.html')">Селектори тегу і класу</button>
+                <button class="sidebuttonsmall" onclick="loadText('lab2/otherselectors.html')">Інші селектори</button>
+                <button class="sidebuttonsmall" onclick="loadText('lab2/selectorgroups.html')">Групування селекторів</button>
+            </details>
+        </aside>
 
         <main>
-            <h1 align="center" style="padding-top: 150px;"><br>Оберіть лабораторну роботу</h1>
+            <div class="mainview" id="textfield"></div>     
         </main>
     </body>
 </html>

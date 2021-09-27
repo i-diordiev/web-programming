@@ -38,9 +38,23 @@
                 </table>
             </nav>
         </header>
+        
+        <aside class="sidebar">
+            <button class="sidebuttonlarge" style="margin-top: 40px;" onclick="loadText('lab1/description.html')">Опис предметного середовища</button>
+            <button class="sidebuttonlarge" onclick="loadText('lab1/theme.html')">Тема, мета, місце розташування</button>
+
+            <details>
+                <summary>Структура документа</summary>
+                <button class="sidebuttonsmall" onclick="loadText('lab1/htmltable.html')">HTML-код таблиць</button>
+                <button class="sidebuttonsmall" onclick="loadText('lab1/htmlform.html')">HTML-код форм</button>
+                <button class="sidebuttonsmall" onclick="loadText('lab1/htmlimage.html')">HTML-код зображення</button>
+            </details>
+
+            <button class="sidebuttonlarge" onclick="loadText('lab1/conclusion.html')">Висновки</button>
+        </aside>
 
         <main>
-            <h1 align="center" style="padding-top: 150px;"><br>Оберіть лабораторну роботу</h1>
+            <div class="mainview" id="textfield"></div>     
         </main>
     </body>
 </html>
