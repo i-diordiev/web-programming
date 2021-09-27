@@ -12,6 +12,10 @@ function loadText(path, fileName) {
     request.send(null);
 }
 
+function test() {
+    
+}
+
 function loadCurrentSideBar(elementId){
     if(document.getElementById("sideBarLab1").hidden == false){
         document.getElementById("sideBarLab1").hidden = true;
