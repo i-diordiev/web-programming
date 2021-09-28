@@ -7,3 +7,13 @@
     font-size: 24px;
     color: black;
 }
+
+p.class1 {
+    color: lightblue;
+    font-size: 20px;
+}
+
+a {
+    color: lightcoral;
+    font-size: 22px;
+}
