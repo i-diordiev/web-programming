@@ -1,9 +1,13 @@
-header.siteheader{
+.siteheader{
     margin: 0;
     background-color: rgb(75,74,69); 
     color: #fff; 
     height: 25%;
     width: 100%;
+}
+
+.siteheader--top-text{
+    font-family: 'Playfair Display';
 }
 
 * {
