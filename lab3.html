@@ -31,7 +31,7 @@
                     <tr>
                         <td><a class="topbutton" href="lab1.html">Лабораторна робота №1</a></td>
                         <td><a class="topbutton" href="lab2.html">Лабораторна робота №2</a></td>
-                        <td><a class="topbutton" href="lab3.html">Лабораторна робота №3</a></td>
+                        <td><a class="topbutton" href="index.html">Лабораторна робота №3</a></td>
                         <td><a class="topbutton" href="index.html">Лабораторна робота №4</a></td>
                         <td><a class="topbutton" href="index.html">Лабораторна робота №5</a></td>
                         <td><a class="topbutton" href="index.html">Лабораторна робота №6</a></td>
@@ -42,9 +42,23 @@
                 </table>
             </nav>
         </header>
+        
+        <aside class="sidebar">
+            <button class="sidebuttonlarge" style="margin-top: 40px;" onclick="loadText('lab3/task.html')">Тема, Мета, Розташування</button>
+            <button class="sidebuttonlarge" onclick="loadText('lab3/')">Зовнішний вигляд макету</button>
+
+            <details>
+                <summary>HTML - код макету</summary>
+                <button class="sidebuttonsmall" onclick="loadText('lab3/')">Розмітка сторінки за допомогою таблиць</button>
+                <button class="sidebuttonsmall sidebuttonsmall--wider" onclick="loadText('lab3/')">
+                    Розмітка сторінки за допомогою плаваючих блоків</button>
+            </details>
+
+            <button class="sidebuttonlarge" onclick="loadText('lab3/conclusion.html')">Висновки</button>
+        </aside>
 
         <main>
-            <h1 align="center" style="padding-top: 150px;"><br>Оберіть лабораторну роботу</h1>
+            <div class="mainview" id="textfield"></div>     
         </main>
     </body>
 </html>

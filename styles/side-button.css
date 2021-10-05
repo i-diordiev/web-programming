@@ -16,6 +16,10 @@ button.sidebuttonsmall {
     border-radius: 20px;
 }
 
+button.sidebuttonsmall--wider{
+    height: 60px;
+}
+
 button.sidebuttonlarge:hover{
     box-shadow: 0 0 15px rgb(133, 133, 133);
 }
