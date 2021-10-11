@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    background: #FFBD59;
+    padding: 5px 50px;
+    font-family: sans-serif;
+    font-size: 60px;
+    letter-spacing: 1px;
+}
+
+.advantages {
+    margin-top: 40px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.advantages-element {
+    width: 250px;
+    height: 50px;
+    padding: 15px;
+    margin-right: 50px;
+    background-color: #FFBD59;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+
+.small-header {
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.learning {
+    margin: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.learning-container {
+    box-sizing: border-box;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.learning-text {
+    border: 2px solid black;
+    padding: 30px;
+    height: 240px;
+    flex-grow: 1;
+}
+
+.number-in-circle {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: #FFBD59;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.learning-header {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 22px;
+    line-height: 36px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.learning-description {
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: sans-serif;
+    flex-grow: 1;
+}
+
+.learning-img {
+    width: 100%;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.levels-container {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    margin-left: 80px;
+    margin-top: 70px;
+    gap: 100px;
+}
+
+.levels-img {
+    width: 650px;
+}
+
+.levels-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.levels-header {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 22px;
+    line-height: 36px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.levels-description {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+
+footer {
+    display: flex;
+    margin-top: 20px;
+    height: 50px;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-container {
+    display: flex;
+    gap: 100px;
+    padding-left: 20px;
+    background-color: black;
+    height: 50px;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.footer-text {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.footer-img {
+    height: 50px;
+}
