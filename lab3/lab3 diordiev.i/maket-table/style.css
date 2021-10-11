@@ -1,0 +1,23 @@
+.el1 {
+    background-color: yellow;
+    height: 100px;
+}
+
+.el2 {
+    background-color: blue;
+    width: 300px;
+}
+
+.el3 {
+    background-color: lightgray;
+    width: 300px;
+}
+
+.el4 {
+    background-color: red;
+    height: 100px;
+}
+
+.high-column {
+    height: 500px;
+}

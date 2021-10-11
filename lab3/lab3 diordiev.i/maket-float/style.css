@@ -1,0 +1,52 @@
+.element-1 {
+    height: 100px;
+    width: 750px;
+    background-color: yellow;
+    float: top;
+}
+
+.element-2 {
+    height: 500px;
+    width: 250px;
+    background-color: blue;
+    float: left;
+}
+
+.element-3 {
+    height: 400px;
+    width: 250px;
+    background-color: lightgray;
+    float: left;
+}
+
+.element-4 {
+    height: 400px;
+    width: 250px;
+    background-color: blue;
+    float: left;
+}
+
+.element-5 {
+    height: 100px;
+    width: 500px;
+    background-color: red;
+    float: top;
+}
+
+.container-big {
+    height: 700px;
+    width: 750px;
+}
+
+.container-medium {
+    height: 500px;
+    width: 750px;
+    float: top;
+}
+
+.container-small {
+    height: 500px;
+    width: 500px;
+    float: left;
+}
+
