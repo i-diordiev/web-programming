@@ -129,7 +129,7 @@ html{
 }
 
 .title{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif, Times New Roman;
     font-size: 5vh;
     color: rgba(255, 166, 0, 0.774);
     margin-top: 4vh;
