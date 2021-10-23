@@ -1,65 +1,54 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="ua">
     <head>
         <meta charset="utf-8" lang="ua"/>
         <title>Звіт основи веб-програмування</title>
         <link
-            href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;400&display=swap"
-            rel="stylesheet">
-        <link rel="stylesheet" href="styles/side-button.css"/>
-        <link rel="stylesheet" href="styles/top-button.css"/>
-        <link rel="stylesheet" href="styles/header.css"/>
-        <link rel="stylesheet" href="styles/sidebar.css"/>
-        <link rel="stylesheet" href="styles/mainview.css"/>
-        <script src="js/scripts.js"></script>
+                href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;400&display=swap"
+                rel="stylesheet">
+        <link rel="stylesheet" href="styles.css"/>
+        <script src="scripts.js"></script>
     </head>
 
-    <body style="margin: 0;">
-        <header class="siteheader" align="center">
+    <body>
+        <header class="site-header">
             <!--Шапка сайта-->
-            <div class="siteheader siteheader--top-text">
-                <h2 style="margin: 0;"><br>ЗВІТИ З ЛАБОРАТОРНИХ РОБІТ<br>
-                    З ДИСЦИПЛІНИ «ІНТЕРНЕТ-ТЕХНОЛОГІЇ ТА ПРОЕКТУВАННЯ WEB-ЗАСТОСУВАНЬ»
-                </h2>
-                <h4><br>Бригада №7. Студенти групи ІС-03: Духовний Д., Діордєв І., Пархоменко О., Соловйова Ю.</h4>
-            </div>
-        
+            <h2>ЗВІТИ З ЛАБОРАТОРНИХ РОБІТ</h2>
+            <h2>З ДИСЦИПЛІНИ «ІНТЕРНЕТ-ТЕХНОЛОГІЇ ТА ПРОЕКТУВАННЯ WEB-ЗАСТОСУВАНЬ»</h2>
+            <h4>Бригада №7. Студенти групи ІС-03: Духовний Д., Діордєв І., Пархоменко О., Соловйова Ю.</h4>
+
             <!--Навигация по лабам-->
-            <nav>
-                <table align="center", cellspacing="20px">
-                    <tr>
-                        <td><a class="topbutton" href="lab1.html">Лабораторна робота №1</a></td>
-                        <td><a class="topbutton" href="lab2.html">Лабораторна робота №2</a></td>
-                        <td><a class="topbutton" href="lab3.html">Лабораторна робота №3</a></td>
-                        <td><a class="topbutton" href="lab4.html">Лабораторна робота №4</a></td>
-                        <td><a class="topbutton" href="lab5.html">Лабораторна робота №5</a></td>
-                        <td><a class="topbutton" href="lab6.html">Лабораторна робота №6</a></td>
-                        <td><a class="topbutton" href="lab7.html">Лабораторна робота №7</a></td>
-                        <td><a class="topbutton" href="lab8.html">Лабораторна робота №8</a></td>
-                        <td><a class="topbutton" href="lab9.html">Лабораторна робота №9</a></td>
-                    </tr>
-                </table>
+            <nav class="lab-navigation">
+                <a class="top-button" href="lab1.html">Лабораторна робота №1</a>
+                <a class="top-button" href="lab2.html">Лабораторна робота №2</a>
+                <a class="top-button" href="lab3.html">Лабораторна робота №3</a>
+                <a class="top-button" href="lab4.html">Лабораторна робота №4</a>
+                <a class="top-button" href="lab5.html">Лабораторна робота №5</a>
+                <a class="top-button" href="lab6.html">Лабораторна робота №6</a>
+                <a class="top-button" href="lab7.html">Лабораторна робота №7</a>
+                <a class="top-button" href="lab8.html">Лабораторна робота №8</a>
+                <a class="top-button" href="lab9.html">Лабораторна робота №9</a>
             </nav>
         </header>
         
         <aside class="sidebar">
-            <button class="sidebuttonlarge" style="margin-top: 40px;" onclick="loadText('lab5/description.html')">Постановка задачі</button>
-            <button class="sidebuttonlarge" onclick="loadText('lab5/punkt3.html')">Динамічні елементи 3 пункту</button>
+            <button class="side-button-large" onclick="loadText('lab5/description.html')">Постановка задачі</button>
+            <button class="side-button-large" onclick="loadText('lab5/punkt3.html')">Динамічні елементи 3 пункту</button>
             <details>
                 <summary>Галерея UniteGallery</summary>
-                <button class="sidebuttonsmall" onclick="loadText('lab5/photogallery.html')">Фотогалерея</button>
-                <button class="sidebuttonsmall" onclick="loadText('lab5/photoslider.html')">Слайдер фотографій</button>
-                <button class="sidebuttonsmall" onclick="loadText('lab5/videoslider.html')">Слайдер відеоматеріалів</button>
+                <button class="side-button-small" onclick="loadText('lab5/photo-gallery.html')">Фотогалерея</button>
+                <button class="side-button-small" onclick="loadText('lab5/slider-photo.html')">Слайдер фотографій</button>
+                <button class="side-button-small" onclick="loadText('lab5/slider-video.html')">Слайдер відеоматеріалів</button>
             </details>
 
-            <button class="sidebuttonlarge" onclick="loadText('lab5/socialbuttons.html')">Кнопки соціальних мереж</button>
-            <button class="sidebuttonlarge" onclick="loadText('lab5/informers.html')">Інформери</button>
-            <button class="sidebuttonlarge" onclick="loadText('lab5/conclusion.html')">Висновки</button>
+            <button class="side-button-large" onclick="loadText('lab5/social-networks.html')">Кнопки соціальних мереж</button>
+            <button class="side-button-large" onclick="loadText('lab5/informers.html')">Інформери</button>
+            <button class="side-button-large" onclick="loadText('lab5/conclusion.html')">Висновки</button>
         </aside>
 
         <main>
-            <div class="mainview" id="textfield"></div>     
+            <div class="main-view" id="textfield"></div>
         </main>
     </body>
 </html>
