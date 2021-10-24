@@ -3,7 +3,7 @@ function loadText(path) {
     request.open("get", path, false);
     request.onreadystatechange = function() {
         if (request.readyState === 4) {
-            document.getElementById("textfield").innerHTML = request.responseText;
+            document.getElementById("text-field").innerHTML = request.responseText;
         }
     }
     request.send(null);
