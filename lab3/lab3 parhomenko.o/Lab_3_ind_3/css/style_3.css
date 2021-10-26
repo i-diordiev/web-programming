@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav, footer, header, aside{display: block;}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0; border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1, h2, h3, h4, h5, h6{font-size: inherit; font-weight: 400;}
+
+/*-----------------------------------------------------------------------------------*/
+
+.block-row{
+    background: rgb(255, 255, 255);
+}
+.block-column{
+    display: flex;
+    border: 20px solid rgb(63, 63, 62);
+    background: rgb(63, 63, 62);
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+.block-item{
+    background-color: rgb(255, 255, 255);
+    min-width: 600px;
+    padding: 50px;
+}
+.block-row-middle{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 0;
+}
+.block-column-middle{
+    background-color: rgb(255, 255, 255);
+}
+.block-item-middle{
+    background-color: rgb(48,48,48);
+    height: 210px;
+    width: 175px;
+    padding: 50px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: 70;
+    margin: 20px 0 30px 0;
+}
+
+.block2-row{
+    margin: 0;
+}
+.block2-column{
+    display: block;
+    justify-content: center;
+    border: 20px solid #292929;
+    background: #292929;
+    font-size: 30px;
+    color: rgb(2, 0, 0);
+    font-weight: 100;
+    min-height: 450px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text1{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+.text2{
+    color:blue;
+    text-align: center;
+}
+.block2-row{
+    display: block;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(2, 0, 0);
+    font-weight: 100;
+    min-height: 450px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.from3-list{
+    display: block;
+}
+.block3-column{
+    display: flex;
+    justify-content: space-between;
+    border: 20px solid rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+    font-size: 30px;
+    color: rgb(2, 0, 0);
+    font-weight: 100;
+    min-height: 450px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text3{
+    margin: 15px 0 0 0;
+    color: rgb(255, 123, 0);
+    font-size: 20px;
+    text-align: center;
+}
+.text4{
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+.from3{
+    font-size: 20px;
+}
+
+.block2-column-container{
+    display: flex;
+    justify-content: center;
+    border: 20px solid #292929;
+    background: #292929;
+    font-size: 20px;
+    color: rgb(255, 146, 4);
+    font-weight: 100;
+    min-height: 450px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.from4-list{
+    display: flex;
+}
+.from4-text{
+    font-size: 15px;
+    color: white;
+    font-weight: 100;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.from4{
+    margin-top: 50px;
+}
+.from3-text{
+    font-size: 15px;
+    color: black;
+    font-weight: 100;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.cont1{
+    margin-left: 30px;
+}
+.from3-list{
+    margin-top: 50px;
+    margin-right: 150px;
+}
+.block3-img{
+    margin-left: 50px;
+}
+.block4-column{
+    display: block;
+    border: 20px solid #292929;
+    background: #292929;
+    display: flex;
+}
+.block4-item-middle1{
+    width: 50px;
+}
+.block4-item-middle{
+    margin: 20px 0 30px 0;
+    width: 50px;
+}
+
+
