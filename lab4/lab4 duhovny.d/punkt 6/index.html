@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Task 6 Duhovny Danil</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="scripts.js"></script>
+    </head>
+
+    <body>
+        <p id="text" style="margin-left: 30px; width: 300px;
+        height: 30px; border: 1px solid black"></p>
+ 
+        <div id="simple">
+            <div class="row frow">
+                <input type="button" onclick="loadNumber(7)" value="7">
+                <input type="button" onclick="loadNumber(8)" value="8">
+                <input type="button" onclick="loadNumber(9)" value="9">
+                <input type="button" onclick="divide()" value="/" title="разделение">
+                <input type="button" onclick="multiply()" value="*" title="умножение">
+                <input type="button" onclick="mod()" value="%" title="процентик">
+            </div>
+            <div class="row srow">
+                <input type="button" onclick="loadNumber(4)" value="4">
+                <input type="button" onclick="loadNumber(5)" value="5">
+                <input type="button" onclick="loadNumber(6)" value="6">
+                <input type="button" onclick="substract()" value="-" title="вычитание">
+                <input type="button" onclick="sum()" value="+" title="прибавление">
+                <input type="button" onclick="erase()" value="←" title="Удалить последний символ">
+            </div>
+            <div class="row trow">
+                <input type="button" onclick="loadNumber(1)" value="1">
+                <input type="button" onclick="loadNumber(2)" value="2">
+                <input type="button" onclick="loadNumber(3)" value="3">
+                <input id="zero" type="button" onclick="loadNumber(0)" value="0">
+                <input type="button" onclick="squareRoot()" value="√" title="прибавление">
+                <input type="button" onclick="pow()" value="^" title="прибавление">
+                <input id="calc" type="button" onclick="res()" value="=" title="Результат расчета">
+            </div>
+        </div>    
+    </body>
+</html>

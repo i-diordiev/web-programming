@@ -1,0 +1,13 @@
+input{
+    font-size: 50px;
+    margin: 5px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+#simple{
+    margin: 30px;
+}
