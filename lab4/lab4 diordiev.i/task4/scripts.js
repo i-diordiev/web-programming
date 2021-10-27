@@ -12,7 +12,7 @@ function loadNumber() {
 
     let arrString = "";
     array.forEach(element => arrString += element + " ");
-    document.getElementById("start-array").innerText = arrString;
+    document.getElementById("start-array").innerText += arrString;
 
     let sum = 0;
     for (let i = 0; i < number; i += 2) {
@@ -64,5 +64,5 @@ function loadNumber() {
 
     arrString = "";
     array.forEach(element => arrString += element + " ");
-    document.getElementById("sorted-array").innerText = arrString;
+    document.getElementById("sorted-array").innerText += arrString;
 }
