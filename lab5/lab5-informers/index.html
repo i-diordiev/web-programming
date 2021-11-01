@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Informers laba 5</title>
+    </head>
+    <body>
+        <h3 style="font-size: 32px">Weather informer</h3>
+        <!--Weather informer-->
+        <div id="SinoptikInformer" style="width: 240px;" class="SinoptikInformer type1c1">
+            <div class="siHeader">
+                <div class="siLh">
+                    <div class="siMh">
+                        <a onmousedown="siClickCount();" class="siLogo" href="https://sinoptik.ua/" target="_blank" rel="nofollow" title="Погода">
+                        </a>Погода <span id="siHeader"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="siBody">
+                <a onmousedown="siClickCount();" href="https://sinoptik.ua/погода-киев" title="Погода в Киеве" target="_blank">
+                    <div class="siCity">
+                        <div class="siCityName"><span>Киев</span></div>
+                        <div id="siCont0" class="siBodyContent">
+                            <div class="siLeft">
+                                <div class="siTerm"></div>
+                                <div class="siT" id="siT0"></div>
+                                <div id="weatherIco0"></div>
+                            </div>
+                            <div class="siInf">
+                                <p>влажность: <span id="vl0"></span></p>
+                                <p>давление: <span id="dav0"></span></p>
+                                <p>ветер: <span id="wind0"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <div class="siLinks">Погода на 10 дней от
+                    <a href="https://sinoptik.ua/погода-киев/10-дней" title="Погода на 10 дней" target="_blank" onmousedown="siClickCount();">sinoptik.ua</a>
+                </div>
+            </div>
+            <div class="siFooter">
+                <div class="siLf"><div class="siMf"></div></div>
+            </div>
+        </div>
+        <script type="text/javascript" charset="UTF-8" src="//sinoptik.ua/informers_js.php?title=4&amp;wind=3&amp;cities=303010783&amp;lang=ru"></script>
+
+        <h3 style="font-size: 32px;">Currency informer</h3>
+        <!-- Minfin.com.ua currency informer 275x120 yellow-->
+        <div id="minfin-informer-m1Fn-currency">Загружаем <a href="https://minfin.com.ua/currency/" target="_blank">курсы валют</a> от minfin.com.ua</a></div><script>var iframe = '<ifra'+'me width="275" height="120" fram'+'eborder="0" src="https://informer.minfin.com.ua/gen/course/?color=yellow" vspace="0" scrolling="no" hspace="0" allowtransparency="true"style="width:275px;height:120px;ove'+'rflow:hidden;"></iframe>';var cl = 'minfin-informer-m1Fn-currency';document.getElementById(cl).innerHTML = iframe; </script><noscript><img src="https://informer.minfin.com.ua/gen/img.png" width="1" height="1" alt="minfin.com.ua: курсы валют" title="Курс валют" border="0" /></noscript>
+        <!-- Minfin.com.ua currency informer 275x120 yellow-->
+
+        <!--Clock informer-->
+        <h3 style="font-size: 32px;">Clock informer</h3>
+        <script src="https://cdn.logwork.com/widget/clock.js"></script>
+        <a href="https://logwork.com/clock-widget/" class="clock-time" data-style="default-numeral" data-size="250" data-timezone="Europe/Kiev">Current time in Kiev, Ukraine</a>
+    </body>
+</html>
