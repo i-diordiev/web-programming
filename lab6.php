@@ -34,8 +34,8 @@
         
         <aside class="sidebar">
             <button class="side-button-large" onclick="loadText('lab6/description.html')">Постановка задачі</button>
-            <button class="side-button-large" onclick="loadText('lab6/dynamic-elements.html')">Динамічні елементи 3 пункту</button>
-            <button class="side-button-large" onclick="loadText('lab6/screenshots.html')">Встановлення та налаштування веб-сервера</button>
+            <button class="side-button-large" onclick="loadText('lab6/dynamic-elements.html')">Сайт з динамічними елементами</button>
+            <button class="side-button-large" onclick="loadText('lab6/screenshots.html')">Встановлення веб-сервера</button>
             <button class="side-button-large" onclick="loadText('lab6/conclusion.html')">Висновки</button>
         </aside>
 
