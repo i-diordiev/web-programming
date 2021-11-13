@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Dynamic elements laba 6</title>
+        <link rel="stylesheet" href="jquery-ui-1.13.0/jquery-ui.min.css">
+        <script src="jquery-ui-1.13.0/external/jquery/jquery.js"></script>
+        <script src="jquery-ui-1.13.0/jquery-ui.min.js"></script>
+    </head>
+    <body>
+        <p>DatePicker</p>
+        <input type="text" name="date" id="date">
+        <script>
+            $("#date").datepicker();
+        </script>
+
+        <p>Accordion</p>
+        <div id="accordion">
+            <h3>Section 1</h3>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <h3>Section 2</h3>
+            <div>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <h3>Section 3</h3>
+            <div>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            </div>
+        </div>
+        <script>
+            $("#accordion").accordion();
+        </script>
+
+        <p>Menu</p>
+        <ul id="menu" style="width: 300px">
+            <li class="ui-state-disabled">
+                <div>Option 1 (not available)</div>
+            </li>
+            <li>
+                <div>Option 2</div>
+            </li>
+            <li>
+                <div>Option 3</div>
+            </li>
+            <li>
+                <div>Option 4</div>
+            </li>
+            <li>
+                <div>Option 5</div>
+            </li>
+        </ul>
+        <script>
+            $("#menu").menu();
+        </script>
+    </body>
+</html>
