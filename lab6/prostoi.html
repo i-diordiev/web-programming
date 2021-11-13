@@ -1,0 +1,26 @@
+<html>
+    <head>
+    </head>
+
+    <script>
+        function getmsg(){
+        var today = new Date();
+        var dd = String(today.getDate()).padStart(2, '0');
+        var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+        var yyyy = today.getFullYear();
+
+        today = 'Данные сохранены. Дата: ' + mm + '/' + dd + '/' + yyyy;
+        alert(today);
+        }
+    </script>
+
+    <body>
+        <p >Введите текст:</p>
+        <input type="text"></input>
+        <button type="button" onclick="getmsg()">OK</button>
+
+        <p>Введите почту:</p>
+        <input type="text"></input>
+        <button type="button" onclick="getmsg()">OK</button>
+    </body>
+</html>
