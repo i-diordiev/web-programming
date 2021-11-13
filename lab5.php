@@ -20,15 +20,15 @@
 
             <!--Навигация по лабам-->
             <nav class="lab-navigation">
-                <a class="top-button" href="lab1.html">Лабораторна робота №1</a>
-                <a class="top-button" href="lab2.html">Лабораторна робота №2</a>
-                <a class="top-button" href="lab3.html">Лабораторна робота №3</a>
-                <a class="top-button" href="lab4.html">Лабораторна робота №4</a>
-                <a class="top-button" href="lab5.html">Лабораторна робота №5</a>
-                <a class="top-button" href="lab6.html">Лабораторна робота №6</a>
-                <a class="top-button" href="lab7.html">Лабораторна робота №7</a>
-                <a class="top-button" href="lab8.html">Лабораторна робота №8</a>
-                <a class="top-button" href="lab9.html">Лабораторна робота №9</a>
+                <a class="top-button" href="lab1.php">Лабораторна робота №1</a>
+                <a class="top-button" href="lab2.php">Лабораторна робота №2</a>
+                <a class="top-button" href="lab3.php">Лабораторна робота №3</a>
+                <a class="top-button" href="lab4.php">Лабораторна робота №4</a>
+                <a class="top-button" href="lab5.php">Лабораторна робота №5</a>
+                <a class="top-button" href="lab6.php">Лабораторна робота №6</a>
+                <a class="top-button" href="lab7.php">Лабораторна робота №7</a>
+                <a class="top-button" href="lab8.php">Лабораторна робота №8</a>
+                <a class="top-button" href="lab9.php">Лабораторна робота №9</a>
             </nav>
         </header>
         
@@ -37,12 +37,12 @@
             <button class="side-button-large" onclick="loadText('lab5/punkt3.html')">Динамічні елементи 3 пункту</button>
             <details>
                 <summary>Галерея UniteGallery</summary>
-                <button class="side-button-small" onclick="loadText('lab5/photogallery.html')">Фотогалерея</button>
-                <button class="side-button-small" onclick="loadText('lab5/photoslider.html')">Слайдер фотографій</button>
-                <button class="side-button-small" onclick="loadText('lab5/videoslider.html')">Слайдер відеоматеріалів</button>
+                <button class="side-button-small" onclick="loadText('lab5/photo-gallery.html')">Фотогалерея</button>
+                <button class="side-button-small" onclick="loadText('lab5/slider-photo.html')">Слайдер фотографій</button>
+                <button class="side-button-small" onclick="loadText('lab5/slider-video.html')">Слайдер відеоматеріалів</button>
             </details>
 
-            <button class="side-button-large" onclick="loadText('lab5/socialbuttons.html')">Кнопки соціальних мереж</button>
+            <button class="side-button-large" onclick="loadText('lab5/social-networks.html')">Кнопки соціальних мереж</button>
             <button class="side-button-large" onclick="loadText('lab5/informers.html')">Інформери</button>
             <button class="side-button-large" onclick="loadText('lab5/conclusion.html')">Висновки</button>
         </aside>

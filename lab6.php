@@ -20,15 +20,15 @@
 
             <!--Навигация по лабам-->
             <nav class="lab-navigation">
-                <a class="top-button" href="lab1.html">Лабораторна робота №1</a>
-                <a class="top-button" href="lab2.html">Лабораторна робота №2</a>
-                <a class="top-button" href="lab3.html">Лабораторна робота №3</a>
-                <a class="top-button" href="lab4.html">Лабораторна робота №4</a>
-                <a class="top-button" href="lab5.html">Лабораторна робота №5</a>
-                <a class="top-button" href="lab6.html">Лабораторна робота №6</a>
-                <a class="top-button" href="lab7.html">Лабораторна робота №7</a>
-                <a class="top-button" href="lab8.html">Лабораторна робота №8</a>
-                <a class="top-button" href="lab9.html">Лабораторна робота №9</a>
+                <a class="top-button" href="lab1.php">Лабораторна робота №1</a>
+                <a class="top-button" href="lab2.php">Лабораторна робота №2</a>
+                <a class="top-button" href="lab3.php">Лабораторна робота №3</a>
+                <a class="top-button" href="lab4.php">Лабораторна робота №4</a>
+                <a class="top-button" href="lab5.php">Лабораторна робота №5</a>
+                <a class="top-button" href="lab6.php">Лабораторна робота №6</a>
+                <a class="top-button" href="lab7.php">Лабораторна робота №7</a>
+                <a class="top-button" href="lab8.php">Лабораторна робота №8</a>
+                <a class="top-button" href="lab9.php">Лабораторна робота №9</a>
             </nav>
         </header>
         
