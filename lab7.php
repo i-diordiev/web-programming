@@ -33,18 +33,13 @@
         </header>
         
         <aside class="sidebar">
-            <button class="side-button-large" onclick="loadText('lab5/description.html')">Постановка задачі</button>
-            <button class="side-button-large" onclick="loadText('lab5/punkt3.html')">Динамічні елементи 3 пункту</button>
-            <details>
-                <summary>Галерея UniteGallery</summary>
-                <button class="side-button-small" onclick="loadText('lab5/photogallery.html')">Фотогалерея</button>
-                <button class="side-button-small" onclick="loadText('lab5/photoslider.html')">Слайдер фотографій</button>
-                <button class="side-button-small" onclick="loadText('lab5/videoslider.html')">Слайдер відеоматеріалів</button>
-            </details>
-
-            <button class="side-button-large" onclick="loadText('lab5/socialbuttons.html')">Кнопки соціальних мереж</button>
-            <button class="side-button-large" onclick="loadText('lab5/informers.html')">Інформери</button>
-            <button class="side-button-large" onclick="loadText('lab5/conclusion.html')">Висновки</button>
+            <button class="side-button-large" onclick="loadText('lab7/description.html')">Постановка задачі</button>
+            <button class="side-button-large" onclick="loadText('lab7/obj-descriptions.html')">Опис обєктів предметної області</button>
+            <button class="side-button-large" onclick="loadText('lab7/info-model.html')">Інфологічна модель. Опис моделі</button>
+            <button class="side-button-large" onclick="loadText('lab7/data-model.html')">Даталогічна модель. Звязки між таблицями</button>
+            <button class="side-button-large" onclick="loadText('lab7/db-realise.html')">Реалізація БД</button>
+            <button class="side-button-large" onclick="loadText('lab7/db-add-remove.html')">Введення, виведення даних в БД</button>
+            <button class="side-button-large" onclick="loadText('lab7/conclusion.html')">Висновки</button>
         </aside>
 
         <main>
