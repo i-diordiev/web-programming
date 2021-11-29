@@ -34,7 +34,7 @@
         
         <aside class="sidebar">
             <button class="side-button-large" onclick="loadText('lab7/description.html')">Постановка задачі</button>
-            <button class="side-button-large" onclick="loadText('lab7/obj-descriptions.html')">Опис обєктів предметної області</button>
+            <button class="side-button-large" onclick="loadText('lab7/obj-description.html')">Опис обєктів предметної області</button>
             <button class="side-button-large" onclick="loadText('lab7/info-model.html')">Інфологічна модель. Опис моделі</button>
             <button class="side-button-large" onclick="loadText('lab7/data-model.html')">Даталогічна модель. Звязки між таблицями</button>
             <button class="side-button-large" onclick="loadText('lab7/db-realise.html')">Реалізація БД</button>
