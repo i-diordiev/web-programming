@@ -33,8 +33,15 @@
         </header>
         
         <aside class="sidebar">
-            <button class="side-button-large" onclick="loadText('lab8/description.html')">Постановка задачі</button>
-            <button class="side-button-large" onclick="loadText('lab8/realising.html')">Хід виконання</button>
+            <button class="side-button-large" onclick="loadText('lab8/description.html')">Тема, мета, посилання на гітхаб</button>
+            <button class="side-button-large" onclick="loadText('lab8/obj-desc.html')">Опис обєктів предметної області</button>
+            <button class="side-button-large" onclick="loadText('lab8/info-model.html')">Інфологічна модель</button>
+            <button class="side-button-large" onclick="loadText('lab8/data-model.html')">Даталогічна модель</button>
+            <button class="side-button-large" onclick="loadText('lab8/data-subd.html')">Реалізація БД в СУБД</button>
+            <button class="side-button-large" onclick="loadText('lab8/crud1.html')">Введення, виведення, вилучення даних з БД</button>
+            <button class="side-button-large" onclick="loadText('lab8/crud2.html')">SQL-запити на інший функціонал</button>
+            <button class="side-button-large" onclick="loadText('lab8/auth.html')">Авторизація</button>
+            <button class="side-button-large" onclick="loadText('lab8/lang-select.html')">Вибір мови</button>
             <button class="side-button-large" onclick="loadText('lab8/conclusion.html')">Висновки</button>
         </aside>
 
